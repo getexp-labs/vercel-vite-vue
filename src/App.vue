@@ -5,10 +5,10 @@
   <div
     class="flex flex-row flex-wrap w-full justify-center"
   >
-    <img class="self-center" src="./assets/vv-logo.png" alt="">
+    <img class="self-center" src="./assets/vvv-logo.png" alt="">
     <div class="flex flex-row flex-wrap w-full">
       <div class="flex flex-row flex-wrap w-full justify-center">
-        <h1>Apples</h1>
+        <h1 style="font-size: 100px; font-weight: bold">VVV</h1>
       </div>
       <div
         v-for="apple in apples" :key="apple.id"
@@ -45,14 +45,14 @@ onMounted(async() => {
 </style>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin-top: 60px;
 }
 h1 {
-  font-size: 50px !important;
+  /* font-size: 50px !important; */
 }
 </style>
