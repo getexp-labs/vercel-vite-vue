@@ -12,8 +12,8 @@
       </div>
       <div
         v-for="apple in apples" :key="apple.id"
-        class="flex flex-row flex-wrap w-full justify-center"
-        :style="{color: apple.color}"
+        class="flex flex-row flex-wrap w-full justify-center py-2"
+        :style="{background: apple.color, color: 'white'}"
       >
         <span>{{apple}}</span>
       </div>
