@@ -2,16 +2,21 @@
   <BaseImg
     src="https://www.visitbigsky.com/sites/default/files/styles/scale_1440/public/2021-04/The%20Mountain.jpg?itok=vW-O3W3X"
     quality="50" qualityMini="1" width="1200" widthMini="50" class="img-cover"/>
-  <div class="flex flex-row flex-wrap w-full">
-    <div class="flex flex-row flex-wrap w-full justify-center">
-      <h1>Apples</h1>
-    </div>
-    <div
-      v-for="apple in apples" :key="apple.id"
-      class="flex flex-row flex-wrap w-full justify-center"
-      :style="{color: apple.color}"
-    >
-      <span>{{apple}}</span>
+  <div
+    class="flex flex-row flex-wrap w-full justify-center"
+  >
+    <img class="self-center" src="./assets/vv-logo.png" alt="">
+    <div class="flex flex-row flex-wrap w-full">
+      <div class="flex flex-row flex-wrap w-full justify-center">
+        <h1>Apples</h1>
+      </div>
+      <div
+        v-for="apple in apples" :key="apple.id"
+        class="flex flex-row flex-wrap w-full justify-center"
+        :style="{color: apple.color}"
+      >
+        <span>{{apple}}</span>
+      </div>
     </div>
   </div>
 </template>
