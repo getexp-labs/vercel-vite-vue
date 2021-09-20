@@ -1,6 +1,5 @@
 ![VVV Logo](/src/assets/vvv-logo-mini.png?raw=true)
-# VVV
-## vercel-vite-vue
+# vercel-vite-vue
 
 ### How to start
 ```
