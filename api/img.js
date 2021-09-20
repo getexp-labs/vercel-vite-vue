@@ -37,15 +37,4 @@ module.exports = async function(req, res) {
     res.setHeader('Content-Type', 'text/html')
     res.end(`<h1>Internal Error</h1><p>${e.toString()}</p>`)
   }
-  
-  
-
-  
-
-  
-  // else {
-  //   res.statusCode = 500
-  //   res.setHeader('Content-Type', 'text/html')
-  //   res.end('<h1>Internal Error</h1><p>Sorry, there was a problem</p>')
-  // }
 }
